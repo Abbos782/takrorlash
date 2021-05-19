@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+.header{
+    text-decoration: none;
+    background-color: #272727;
+       .container{
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           padding: 5px 0;
+           .icons{
+               width:10% ;
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+                  .icons__list{
+                       a{
+                           color:#ABB5BE;
+                           font-size: 18px;
+                             
+                       }
+                  }
+           }
+           .text{
+               width: 25%;
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+                 .dropdown{
+                      form{
+                          #cars{
+                             border: none;
+                             background-color: #272727;
+                             color:#ABB5BE;
+                             option{
+                                font-weight: 600;
+                                font-size: 14px;
+                             }
+                          }
+                      }
+                 }
+                 .mImkoniyat{
+                     width: 60%;
+                     display: flex;
+                     justify-content: space-between;
+                     align-items: center;
+                        p{
+                            color:#ABB5BE;
+                            font-weight: 600;
+                            font-size: 14px;
+                        }
+                        li{
+                            a{
+                                color:#ABB5BE;
+                                font-weight: 600;
+                                font-size: 14px;
+                            }   
+                            }
+                        }
+                 }
+           }
+       }
+       .navbar{
+            background-color: #272727;
+            border: 0.5px solid #9e9595; 
+              .container{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 14px;
+                font-weight: 500;
+                color: #F8F9FA;
+                padding: 10px 0;
+              }
+              .logo{
+                  width: 10%;
+                    a{
+                        color: #FFFFFF;
+                        font-weight: bold;
+                        font-size: 24px;
+                        line-height: 29px;
+                        text-decoration: none;
+                    }
+              }
+              .list{
+                  width: 60%;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  .search{
+                      width: 20%;
+                      display: flex;
+                      justify-content: space-between;
+                        form{
+                              label{
+                                color: #F8F9FA;
+                              }
+                              a{
+                                color: #F8F9FA;
+                              }
+                        }
+                  }
+                  li{
+                      a{
+                        color: #F8F9FA; 
+                        text-decoration: none;
+                      }
+                  }
+                  .login{
+                      width: 7%;
+                      display: flex;
+                      justify-content: space-between;
+                      align-items: center;
+                       p{
+                        color: #F8F9FA;
+                       }
+                  }
+              }
+       }

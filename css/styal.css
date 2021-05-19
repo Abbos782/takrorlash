@@ -1,0 +1,184 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.header {
+  text-decoration: none;
+  background-color: #272727;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 0;
+}
+
+.header .container .icons {
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container .icons .icons__list a {
+  color: #ABB5BE;
+  font-size: 18px;
+}
+
+.header .container .text {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container .text .dropdown form #cars {
+  border: none;
+  background-color: #272727;
+  color: #ABB5BE;
+}
+
+.header .container .text .dropdown form #cars option {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.header .container .text .mImkoniyat {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container .text .mImkoniyat p {
+  color: #ABB5BE;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.header .container .text .mImkoniyat li a {
+  color: #ABB5BE;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.navbar {
+  background-color: #272727;
+  border: 0.5px solid #9e9595;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #F8F9FA;
+  padding: 10px 0;
+}
+
+.navbar .logo {
+  width: 10%;
+}
+
+.navbar .logo a {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  text-decoration: none;
+}
+
+.navbar .list {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .list .search {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .list .search form label {
+  color: #F8F9FA;
+}
+
+.navbar .list .search form a {
+  color: #F8F9FA;
+}
+
+.navbar .list li a {
+  color: #F8F9FA;
+  text-decoration: none;
+}
+
+.navbar .list .login {
+  width: 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .list .login p {
+  color: #F8F9FA;
+}
+/*# sourceMappingURL=styal.css.map */
